@@ -1,0 +1,14 @@
+name: Python commands 
+
+on: [push]
+
+jobs:
+  run-python-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: python commands
+        run: |
+          import platform
+          print
+          (platform.processor())
+        shell: python
