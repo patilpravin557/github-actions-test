@@ -1,4 +1,4 @@
-name: multiple jobs
+name: multiple jobs parallel
 
 on: [push]
 
