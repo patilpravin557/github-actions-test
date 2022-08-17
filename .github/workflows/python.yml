@@ -1,0 +1,14 @@
+name: shell commands 
+
+on: [push]
+
+jobs:
+  run0shell-command:
+    runs-on: python
+    steps:
+      - name: python command
+        run: |
+          import platform
+          print
+          (platform.processor())
+     
