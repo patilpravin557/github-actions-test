@@ -3,7 +3,7 @@ name: shell commands
 on: [push]
 
 jobs:
-  run0shell-command:
+  run-shell-command:
     runs-on: python
     steps:
       - name: python command
@@ -12,3 +12,4 @@ jobs:
           print
           (platform.processor())
      
+ 
